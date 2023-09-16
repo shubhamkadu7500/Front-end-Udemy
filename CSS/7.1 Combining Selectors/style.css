@@ -1,0 +1,27 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+/* child selector only select one leval down */
+.box > p {
+    color: firebrick;
+}
+/* desendent selectoe example */
+.box li {
+    color: blue;
+}
+/* here chaning selector 1st element then class of parent  */
+li.done{
+    color: seagreen;
+}
+/* combining combiner */
+/* here ul id tag and then select child tag and its class */
+ul p.done {
+    font-size: 0.5rem;
+} 
+/* another way to solve this
+ ul > p{
+    font-size: 0.5rem;
+ } */
+
+ 
